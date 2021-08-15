@@ -1,6 +1,6 @@
 package com.example.phonestore_boot.service.impl;
 
-import com.example.form.AddressForm;
+import com.example.phonestore_boot.form.AddressForm;
 import com.example.phonestore_boot.entity.BuyerAddress;
 import com.example.phonestore_boot.repository.BuyerAddressRepository;
 import com.example.phonestore_boot.service.AddressService;
