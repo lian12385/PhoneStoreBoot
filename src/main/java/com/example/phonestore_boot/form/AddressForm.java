@@ -20,7 +20,7 @@ public class AddressForm {
     private String country;
     @NotBlank( message = "邮政编码不能为空")
     private String areaCode;
-    @NotBlank( message = "纤细地址不能为空")
+    @NotBlank( message = "详细细地址不能为空")
     private String addressDetail;
 
     public AddressForm(String name, String tel, String province, String city, String country, String areaCode, String addressDetail) {

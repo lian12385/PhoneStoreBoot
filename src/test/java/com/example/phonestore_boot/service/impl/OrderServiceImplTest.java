@@ -35,6 +35,6 @@ class OrderServiceImplTest {
     }
     @Test
     void pay(){
-        System.out.println(orderService.pay("123456"));
+        System.out.println(orderService.pay("1234563"));
     }
 }

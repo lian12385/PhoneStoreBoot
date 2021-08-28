@@ -85,6 +85,8 @@ public class OrderServiceImpl implements OrderService {
             throw new PhoneException(ResultEnums.ORDER_NOT_EXIST);
         }
         BeanUtils.copyProperties(orderMaster, orderDetailVo);
+        String a = (new BigDecimal(100))+".00";
+        System.out.println((new BigDecimal(100))+".00".getClass().getName());
         orderDetailVo.setSpecsPrice(orderMaster.getSpecsPrice().divide(new BigDecimal(100))+".00");
         return orderDetailVo;
     }
